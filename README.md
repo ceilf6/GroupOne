@@ -118,6 +118,9 @@ XBuilder 是一个创新的编程学习和游戏创作平台，致力于为用�
 - **Owner**：录制所有者；
 - **LikeCount**：录制视频的点赞数；
 - **ViewCount**：录制视频的观看数；
-- **SharePageURL**：分享页面 URL；
 - **Description**：录制视频的相关描述；
 - **Title**：录制视频标题。
+
+## 原型图
+
+https://js.design/f/dZyKMZ?p=2WbDzgNLOV&mode=design&linkelement=51-57
