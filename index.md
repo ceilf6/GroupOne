@@ -2,7 +2,7 @@
 ## 挑战
 * 提供丝滑的分享方式以满足用户的需求
     我们将尽可能的将Share与XBuilder的耦合度降低，让Share可以作为一块独立的功能，提供相应的分享方式，以及后续如果需要对分享方式进行修改的话，可以很方便的进行操作
-## 功能模块
+## 模块
 ### Third-partyPlatform
 负责与外部平台的集成。目前支持：QQ、微信、抖音、小红书、B站。为directShare、screenshotShare 、recordShare提供第三方平台的接口支持
 ### Poster
@@ -18,7 +18,8 @@
 ### StorageEngine
 负责本地或云端存储，用于保存录屏文件或临时资源
 
-## 组件模块
+## 主要功能实现
+这里我们描述如何通过组合上述模块来实现关键功能。
 ### Share
 Share模块实现了share功能，借助直接directShare、screenshotShare 、recordShare三种分享模式实现分享
 ### directShare
